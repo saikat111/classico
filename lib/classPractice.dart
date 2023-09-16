@@ -13,7 +13,10 @@ void main(){
 
 
 class Human{
-  Human();
+  Human(){
+      print("404");
+
+  }
   void printName(){
     print("object");
   }
