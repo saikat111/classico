@@ -1,17 +1,20 @@
 import 'dart:io';
 
 void main(){
-  print("hello");
+  /*print("hello");
   stdout.write("object");
 
   var name = stdin.readLineSync();
-  print("Your name, $name");
-  new Human();
+  print("Your name, $name");*/
+  var myc =Human();
+  myc.printName();
 }
 
 
 
 class Human{
   Human();
-  
+  void printName(){
+    print("object");
+  }
 }
