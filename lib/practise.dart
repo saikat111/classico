@@ -1,4 +1,9 @@
-void main(){
+import 'dart:io';
 
+void main(){
   print("hello");
+  stdout.write("object");
+
+ var name = stdin.readLineSync();
+ print("Your name, $name");
 }
