@@ -5,6 +5,6 @@ var map_name={
   'key3':'v3',
   'key4':'v4',
 };
-print(map_name);
+print(map_name['key4']);
 
 }
